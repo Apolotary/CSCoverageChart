@@ -154,8 +154,8 @@
         
         CGFloat sliceAngle = 2*M_PI / [self.slices count];
         
-        CGFloat startAngle = index*sliceAngle ; //1 pm = 1/6 rad
-        CGFloat endAngle = (index+1)*sliceAngle;
+        CGFloat startAngle = index*sliceAngle + _rotationAngle; //1 pm = 1/6 rad
+        CGFloat endAngle = (index+1)*sliceAngle + _rotationAngle;
         
         
         CGFloat width = self.area.lineWidth;
