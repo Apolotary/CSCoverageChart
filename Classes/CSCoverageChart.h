@@ -24,6 +24,7 @@
 
 @property (nonatomic, weak) id<CSCoverageChartDelegate> delegate;
 @property int selectedIndex;
+@property CGFloat rotationAngle;
 
 - (void)reloadData;
 - (void)setValue:(CGFloat)value forSliceIndex:(int)index;
