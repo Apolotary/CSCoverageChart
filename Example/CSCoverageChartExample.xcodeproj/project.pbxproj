@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ACE9D701A3A9889004235F9 /* CSCoverageArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE9D6B1A3A9889004235F9 /* CSCoverageArea.m */; };
+		0ACE9D711A3A9889004235F9 /* CSCoverageChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE9D6D1A3A9889004235F9 /* CSCoverageChart.m */; };
+		0ACE9D721A3A9889004235F9 /* CSCoverageSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE9D6F1A3A9889004235F9 /* CSCoverageSlice.m */; };
 		D6994DDD1753FB9F0013A4B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6994DDC1753FB9F0013A4B5 /* UIKit.framework */; };
 		D6994DDF1753FB9F0013A4B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6994DDE1753FB9F0013A4B5 /* Foundation.framework */; };
 		D6994DE11753FB9F0013A4B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6994DE01753FB9F0013A4B5 /* CoreGraphics.framework */; };
@@ -18,12 +21,15 @@
 		D6994DF31753FB9F0013A4B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6994DF21753FB9F0013A4B5 /* Default-568h@2x.png */; };
 		D6994DF61753FB9F0013A4B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6994DF51753FB9F0013A4B5 /* ViewController.m */; };
 		D6994DF91753FB9F0013A4B5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6994DF71753FB9F0013A4B5 /* ViewController.xib */; };
-		D6994E051753FBEB0013A4B5 /* CSCoverageArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D6994E001753FBEB0013A4B5 /* CSCoverageArea.m */; };
-		D6994E061753FBEB0013A4B5 /* CSCoverageChart.m in Sources */ = {isa = PBXBuildFile; fileRef = D6994E021753FBEB0013A4B5 /* CSCoverageChart.m */; };
-		D6994E071753FBEB0013A4B5 /* CSCoverageSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = D6994E041753FBEB0013A4B5 /* CSCoverageSlice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ACE9D6A1A3A9889004235F9 /* CSCoverageArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCoverageArea.h; sourceTree = "<group>"; };
+		0ACE9D6B1A3A9889004235F9 /* CSCoverageArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCoverageArea.m; sourceTree = "<group>"; };
+		0ACE9D6C1A3A9889004235F9 /* CSCoverageChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCoverageChart.h; sourceTree = "<group>"; };
+		0ACE9D6D1A3A9889004235F9 /* CSCoverageChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCoverageChart.m; sourceTree = "<group>"; };
+		0ACE9D6E1A3A9889004235F9 /* CSCoverageSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCoverageSlice.h; sourceTree = "<group>"; };
+		0ACE9D6F1A3A9889004235F9 /* CSCoverageSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCoverageSlice.m; sourceTree = "<group>"; };
 		D6994DD91753FB9F0013A4B5 /* CSCoverageChartExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSCoverageChartExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6994DDC1753FB9F0013A4B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D6994DDE1753FB9F0013A4B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,12 +46,6 @@
 		D6994DF41753FB9F0013A4B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D6994DF51753FB9F0013A4B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6994DF81753FB9F0013A4B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		D6994DFF1753FBEB0013A4B5 /* CSCoverageArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSCoverageArea.h; path = ../CSCoverageArea.h; sourceTree = "<group>"; };
-		D6994E001753FBEB0013A4B5 /* CSCoverageArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSCoverageArea.m; path = ../CSCoverageArea.m; sourceTree = "<group>"; };
-		D6994E011753FBEB0013A4B5 /* CSCoverageChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSCoverageChart.h; path = ../CSCoverageChart.h; sourceTree = "<group>"; };
-		D6994E021753FBEB0013A4B5 /* CSCoverageChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSCoverageChart.m; path = ../CSCoverageChart.m; sourceTree = "<group>"; };
-		D6994E031753FBEB0013A4B5 /* CSCoverageSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSCoverageSlice.h; path = ../CSCoverageSlice.h; sourceTree = "<group>"; };
-		D6994E041753FBEB0013A4B5 /* CSCoverageSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSCoverageSlice.m; path = ../CSCoverageSlice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ACE9D691A3A9889004235F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0ACE9D6A1A3A9889004235F9 /* CSCoverageArea.h */,
+				0ACE9D6B1A3A9889004235F9 /* CSCoverageArea.m */,
+				0ACE9D6C1A3A9889004235F9 /* CSCoverageChart.h */,
+				0ACE9D6D1A3A9889004235F9 /* CSCoverageChart.m */,
+				0ACE9D6E1A3A9889004235F9 /* CSCoverageSlice.h */,
+				0ACE9D6F1A3A9889004235F9 /* CSCoverageSlice.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D6994DD01753FB9F0013A4B5 = {
 			isa = PBXGroup;
 			children = (
@@ -120,12 +133,7 @@
 		D6994E081753FBF10013A4B5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D6994DFF1753FBEB0013A4B5 /* CSCoverageArea.h */,
-				D6994E001753FBEB0013A4B5 /* CSCoverageArea.m */,
-				D6994E011753FBEB0013A4B5 /* CSCoverageChart.h */,
-				D6994E021753FBEB0013A4B5 /* CSCoverageChart.m */,
-				D6994E031753FBEB0013A4B5 /* CSCoverageSlice.h */,
-				D6994E041753FBEB0013A4B5 /* CSCoverageSlice.m */,
+				0ACE9D691A3A9889004235F9 /* Classes */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -198,10 +206,10 @@
 			files = (
 				D6994DE91753FB9F0013A4B5 /* main.m in Sources */,
 				D6994DED1753FB9F0013A4B5 /* AppDelegate.m in Sources */,
+				0ACE9D721A3A9889004235F9 /* CSCoverageSlice.m in Sources */,
+				0ACE9D701A3A9889004235F9 /* CSCoverageArea.m in Sources */,
+				0ACE9D711A3A9889004235F9 /* CSCoverageChart.m in Sources */,
 				D6994DF61753FB9F0013A4B5 /* ViewController.m in Sources */,
-				D6994E051753FBEB0013A4B5 /* CSCoverageArea.m in Sources */,
-				D6994E061753FBEB0013A4B5 /* CSCoverageChart.m in Sources */,
-				D6994E071753FBEB0013A4B5 /* CSCoverageSlice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
