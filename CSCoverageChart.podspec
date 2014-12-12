@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CSCoverageChart"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Pie chart with multiple slices at even angles, each slice can have different radius. Useful when displaying coverage data."
   s.description      = <<-DESC
                        This control draws a pie chart with multiple slices at even angles, each slice can have different radius. Useful when displaying coverage data.
